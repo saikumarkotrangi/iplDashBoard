@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.team-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  color: white;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  width: 320px;
+
+  background-color: #ffffff33;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+
+  border: 2px solid #ffffff;
+}
+.team-image {
+  height: 100px;
+  margin-right: 5px;
+}
+.team-name-para {
+  text-align: center;
+}

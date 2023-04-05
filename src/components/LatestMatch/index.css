@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px;
+
+  background-color: #0f172a;
+  border-radius: 10px;
+
+  color: white;
+  width: 1120px;
+  height: 480px;
+  font-family: 'Bree Serif';
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  text-align: start;
+}
+.second-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.competing-team-logo {
+  height: 300px;
+}
+.third-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  text-align: end;
+}
+.heading {
+  text-align: left;
+  font-size: 25px;
+}
+.para {
+  text-align: start;
+}

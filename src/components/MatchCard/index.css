@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.green {
+  color: green;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+.red {
+  color: red;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+
+.match-card-container {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 10px;
+
+  margin-right: 18px;
+  margin-bottom: 20px;
+  width: 210px;
+  height: 340px;
+}
+.small-team-logo {
+  height: 60px;
+  text-align: center;
+}
+.heading {
+  font-size: 22px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.para {
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
